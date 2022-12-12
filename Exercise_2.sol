@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
-
+// 存钱罐合约
+// 所有人都可以存钱
+// ETH
+// 只有合约 owner 才可以取钱
+// 只要取钱，合约就销毁掉 selfdestruct
 // 合约版本 V.1
 contract TestVersion1 {
     address public sender;

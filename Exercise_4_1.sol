@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
-
+//众筹合约是一个募集资金的合约，在区块链上，我们是募集以太币，类似互联网业务的水滴筹。区块链早起的 ICO 就是类似业务。
 contract CrowdFunding {
     address public immutable beneficiary;   // 受益人
     uint256 public immutable fundingGoal;   // 筹资目标数量

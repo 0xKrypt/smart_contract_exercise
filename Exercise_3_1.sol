@@ -1,6 +1,17 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
-
+/**
+ * TodoList: 是类似便签一样功能的东西，记录我们需要做的事情，以及完成状态。
+ * 创建任务
+    修改任务名称
+        任务名写错的时候
+    修改完成状态：
+        手动指定完成或者未完成
+        自动切换
+            如果未完成状态下，改为完成
+            如果完成状态，改为未完成
+    获取任务
+ */
 contract Demo {
     struct Todo {
         string name;

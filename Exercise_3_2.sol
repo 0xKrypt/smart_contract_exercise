@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-//自动动手写一下，按照使用自增整型作为任务 ID，配合 mapping 实现上面逻辑。
+//按照使用自增整型作为任务 ID，配合 mapping 实现3_1逻辑。
 //状态按照【未完成，进行中，已完成，已取消】四种状态来做。
 contract TodoList{
     enum Status {
